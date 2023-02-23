@@ -19,20 +19,35 @@ body{
   flex-wrap: wrap;
 }
 
+.align-center{
+  align-items: center;
+}
+
 /* HEADER */
 
 
 header{
-  height: 50px;
+  justify-content: flex-end;
+  height: 30px;
   width: 100%;
-  background-color: lightcoral;
+  background-color: black;
 }
+
+header button{
+  margin-right: 5px;
+  padding: 5px 7px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
 
 /* MAIN */
 
 
 main{
-  height: calc(100vh - 150px);
+  height: calc(100vh - 100px);
   max-width: 100vw;
   padding: 20px;
 
@@ -62,7 +77,41 @@ main .image .text{
 
 
 footer{
-  height: 100px;
+  justify-content: space-between;
+  height: 70px;
   width: 100%;
-  background-color: lightblue;
+  color: white;
+  background-color: #222222;
 }
+
+footer nav ul{
+  list-style: none;
+}
+
+/* dare la classe "d-flex" a tutti gli "li" che hanno icona */
+footer nav ul li{
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+/* ICONA */
+footer nav ul li i{
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+/* SCRITTA */
+footer nav ul li div{
+  font-size: 10px;
+  font-weight: bold;
+}
+/* FRECCETTA IN SU */
+footer nav ul li .fa-angle-up{
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+footer nav ul li .fa-share-from-square{
+  color: #46b604;
+}
+

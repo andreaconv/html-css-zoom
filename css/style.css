@@ -1,5 +1,56 @@
+/* GENERAL */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+
+/* UTILS */
+.d-flex{
+  display: flex;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+/* HEADER */
+
+
+header{
+  height: 50px;
+  width: 100%;
+  background-color: lightcoral;
+}
+
+/* MAIN */
+
+
+main{
+  height: calc(100vh - 150px);
+  max-width: 100vw;
+  background-color: lightgreen;
+  /*aggiunge la scrollbar - non spacca il layout*/
+  overflow: auto;
+}
+
+/* .image{
+  height: 150px;
+  width: 200px;
+} */
+
+/* img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+} */
+
+/* FOOTER */
+
+
+footer{
+  height: 100px;
+  width: 100%;
+  background-color: lightblue;
 }

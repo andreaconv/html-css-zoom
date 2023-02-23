@@ -115,3 +115,12 @@ footer nav ul li .fa-share-from-square{
   color: #46b604;
 }
 
+footer button{
+  color: red;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
